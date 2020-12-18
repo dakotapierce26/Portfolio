@@ -191,6 +191,54 @@ header nav ul li a:hover {
     margin: auto;
 }
 
+.work-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.work-grid-container {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat( 5, 1fr);
+    grid-template-rows: repeat( 8, 1fr);
+    grid-gap: 25px;
+    grid-auto-flow: dense;
+}
+
+.work-grid-container img {
+    align-self: flex-start;
+    border: 2px solid var(--secondary-color);
+}
+.grid-item {
+    border: 2px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(var(--quaternary-color), .08);
+
+}
+
+.item-one {
+    display: flex;
+    width: 100%;
+    grid-column: 1 / span 4;
+    grid-row: 1 / span 3;
+    background-size: cover;
+}
+
+.item-two {
+    display: flex;
+}
+
+.item-three {
+    display: flex;
+}
+
+.item-four {
+    display: flex;
+}
 /* My Work End */
 
 
