@@ -104,14 +104,14 @@ header nav ul li a:hover {
     color: var(--tertiary-color);
     width: 50%;
     color: var(--quaternary-color);
-    animation-name: example;
+    animation-name: section-title;
     animation-duration: 5s;
     animation-iteration-count: infinite;
     text-decoration: border;
     -webkit-text-stroke: 1px white;
 }
 
-@keyframes example {
+@keyframes section-title {
     0% {color: var(--quaternary-color);}
     50% {color: yellowgreen;}
     100% {color: var(--quaternary-color);}
@@ -180,6 +180,16 @@ header nav ul li a:hover {
 
 
 /* My Work */
+.my-work {
+    width: 100%;
+}
+
+.my-work h2 {
+    text-align: center;
+    border-bottom: 3px solid var(--tertiary-color);
+    max-width: 250px;
+    margin: auto;
+}
 
 /* My Work End */
 
