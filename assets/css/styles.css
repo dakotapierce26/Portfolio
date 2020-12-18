@@ -8,6 +8,7 @@
     --primary-color: white;
     --secondary-color: black;
     --tertiary-color: gray;
+    --quaternary-color: rgb(241, 74, 102);
 }
 
 body {
@@ -101,29 +102,80 @@ header nav ul li a:hover {
 .section-title {
     font-size: 40px;
     color: var(--tertiary-color);
-    text-align: center;
     width: 50%;
+    color: var(--quaternary-color);
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    text-decoration: border;
+    -webkit-text-stroke: 1px white;
+}
+
+@keyframes example {
+    0% {color: var(--quaternary-color);}
+    50% {color: yellowgreen;}
+    100% {color: var(--quaternary-color);}
 }
 /* Section Titles End */
+
+
+/* Container Styles */
+.container {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+}
+/* Conatiner Styles End */
 
 
 /* About Me */
 .about-me {
     display: flex;
-    height: 300px;
+    width: 60%;
+    margin: 10px 0 20px 20px;
+}
+
+.about-me h2 {
+    text-align: right;
+    padding: 0 20px 0 10px;
+    border-right: 3px solid var(--tertiary-color);
 }
 .about-me p {
     line-height: 1.5;
-    width: 70%;
     margin: auto;
-    font-size: 22px;
-    text-align: center;
+    font-size: 20px;
+    text-align: left;
+    padding: 0 20px 0 10px;
+    color: var(--primary-color);
 }
+
 /* About Me End */
 
 
 /* Contact Me */
+.contact-me {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    text-align: left;
+    margin: 10px 0 20px 20px;
+}
 
+.contact-me h2 {
+    text-align: right;
+    padding: 0 20px 10px 0;
+}
+
+.contact-me address {
+    border-left: 3px solid var(--tertiary-color);
+    text-align: left;
+    color: var(--primary-color);
+    line-height: 1.5;
+    margin-right: auto;
+    padding-left: 10px;
+}
 /* Contact Me End */
 
 
