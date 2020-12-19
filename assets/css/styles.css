@@ -106,84 +106,6 @@ header nav ul li a:hover {
 /* Hero End */
 
 
-/* About Me */
-.about {
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    background-color: rgba(0, 0, 0, 0.5)
-}
-
-.about-container {
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat( 5, 1fr);
-    grid-template-rows: repeat( 4, 1fr);
-    grid-gap: 0px;
-    grid-auto-flow: dense;
-}
-
-.about-title {
-    align-self: center;
-    display: flex;
-    width: 100%;
-    grid-column: 3 / span 1;
-    grid-row: 1 / span 1;
-    background-size: cover;
-    border-bottom: 5px solid white;
-}
-
-.about-text {
-    color: white;
-    width: 100%;
-    text-align: center;
-    display: flex;
-    grid-column: 2 / span 3;
-    grid-row: 2 / span 1;
-}
-/* About Me End */
-
-
-/* Contact Me */
-.contact {
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    background-color: rgba(0, 0, 0, 0.5)
-}
-
-.contact-container {
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat( 5, 1fr);
-    grid-template-rows: repeat( 4, 1fr);
-    grid-gap: 0px;
-    grid-auto-flow: dense;
-}
-
-.contact-title {
-    align-self: center;
-    display: flex;
-    width: 100%;
-    grid-column: 3 / span 1;
-    grid-row: 1 / span 1;
-    background-size: cover;
-    border-bottom: 5px solid white;
-}
-
-.contact-info {
-    color: white;
-    width: 100%;
-    text-align: center;
-    display: flex;
-    grid-column: 2 / span 3;
-    grid-row: 2 / span 1;
-}
-/* Contact Me End */
-
-
 /* My Work */
 .projects {
     width: 100%;
@@ -215,7 +137,7 @@ header nav ul li a:hover {
     grid-row: 2 / span 3;
     background-size: cover;
     border-right: 5px solid white;
-    padding: 20% 0 20% 0;
+    padding: 20% 20% 20% 0;
 }
 
 .item-2 {
@@ -295,6 +217,85 @@ header nav ul li a:hover {
     text-decoration: none;
 }
 /* My Work End */
+
+
+/* About Me */
+.about {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+.about-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat( 5, 1fr);
+    grid-template-rows: repeat( 4, 1fr);
+    grid-gap: 0px;
+    grid-auto-flow: dense;
+}
+
+.about-title {
+    align-self: center;
+    display: flex;
+    width: 100%;
+    grid-column: 3 / span 1;
+    grid-row: 1 / span 1;
+    background-size: cover;
+    border-bottom: 5px solid white;
+}
+
+.about-text {
+    color: white;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    grid-column: 2 / span 3;
+    grid-row: 2 / span 1;
+}
+/* About Me End */
+
+
+/* Contact Me */
+.contact {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+.contact-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat( 5, 1fr);
+    grid-template-rows: repeat( 4, 1fr);
+    grid-gap: 0px;
+    grid-auto-flow: dense;
+}
+
+.contact-title {
+    align-self: center;
+    display: flex;
+    width: 100%;
+    grid-column: 3 / span 1;
+    grid-row: 1 / span 1;
+    background-size: cover;
+    border-bottom: 5px solid white;
+}
+
+.contact-info {
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    grid-column: 2 / span 3;
+    grid-row: 2 / span 1;
+}
+/* Contact Me End */
 
 
 /* Footer */
