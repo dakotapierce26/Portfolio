@@ -1,5 +1,5 @@
 # Portfolio
-url link:https://dakotapierce26.github.io/Portfolio/
+url link: https://dakotapierce26.github.io/Portfolio/
 
 ## Screenshot of Webpage
 My portfolio page, this is where I will display all of my webpages, contact information, and some background information on myself for an employer to view! Although empty of completed works or ongoing projects, I hope to fill it to the brim!
