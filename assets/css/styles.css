@@ -215,7 +215,6 @@ header nav ul li a:hover {
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
 }
-
 /* My Work End */
 
 
@@ -270,9 +269,9 @@ header nav ul li a:hover {
 .contact-container {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat( 5, 1fr);
-    grid-template-rows: repeat( 3, 1fr);
-    grid-gap: 0px;
+    grid-template-columns: repeat( 10, 1fr);
+    grid-template-rows: repeat( 2, 1fr);
+    grid-gap: 10px;
     grid-auto-flow: dense;
 }
 
@@ -280,19 +279,67 @@ header nav ul li a:hover {
     align-self: center;
     display: flex;
     width: 100%;
-    grid-column: 3 / span 1;
+    grid-column: 4 / span 4;
     grid-row: 1 / span 1;
     background-size: cover;
     border-bottom: 5px solid white;
 }
 
-.contact-info {
-    text-decoration: none;
-    color: white;
-    width: 100%;
-    text-align: center;
+.contact-phone {
+    background-size: cover;
     display: flex;
-    grid-column: 2 / span 3;
+    text-align: center;
+    width: 100%;
+    grid-column: 4 / span 1;
+    grid-row: 2 / span 1;
+    position: relative;
+}
+
+.contact-phone:hover .overlay {
+    height: 100%;
+}
+
+.contact-email {
+    background-size: cover;
+    display: flex;
+    text-align: center;
+    width: 100%;
+    grid-column: 5 / span 1;
+    grid-row: 2 / span 1;
+    position: relative;
+}
+
+.contact-email:hover .overlay {
+    height: 100%;
+}
+
+.overlay-email {
+    white-space: nowrap; 
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.contact-github {
+    background-size: cover;
+    display: flex;
+    text-align: center;
+    width: 100%;
+    grid-column: 6 / span 1;
+    grid-row: 2 / span 1;
+}
+
+.contact-linkedin {
+    background-size: cover;
+    display: flex;
+    text-align: center;
+    width: 100%;
+    grid-column: 7 / span 1;
     grid-row: 2 / span 1;
 }
 /* Contact Me End */
@@ -311,7 +358,11 @@ header nav ul li a:hover {
 
 /* Media Queries */
 @media screen and (max-width:1024px) {
-        .projects-container {
+    
+    header nav ul li a {
+        font-size: 30px;
+    }
+    .projects-container {
         grid-template-columns: repeat( 7, 1fr);
         grid-template-rows: repeat( 14, 1fr);
     }
