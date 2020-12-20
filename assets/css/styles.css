@@ -112,6 +112,7 @@ header nav ul li a:hover {
     align-items: center;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
 }
 
 .projects-container {
@@ -231,7 +232,7 @@ header nav ul li a:hover {
     width: 100%;
     display: grid;
     grid-template-columns: repeat( 5, 1fr);
-    grid-template-rows: repeat( 3, 1fr);
+    grid-template-rows: repeat( 2, 1fr);
     grid-gap: 10px;
     grid-auto-flow: dense;
 }
@@ -262,7 +263,7 @@ header nav ul li a:hover {
     width: 100%;
     align-items: center;
     justify-content: center;
-    padding: 10px;
+    padding: 10px 0 20px 0;
     background-color: rgba(0, 0, 0, 0.5)
 }
 
@@ -270,7 +271,7 @@ header nav ul li a:hover {
     width: 100%;
     display: grid;
     grid-template-columns: repeat( 10, 1fr);
-    grid-template-rows: repeat( 2, 1fr);
+    grid-template-rows: repeat( 3, 1fr);
     grid-gap: 10px;
     grid-auto-flow: dense;
 }
@@ -280,7 +281,7 @@ header nav ul li a:hover {
     display: flex;
     width: 100%;
     grid-column: 4 / span 4;
-    grid-row: 1 / span 1;
+    grid-row: 1 / span 2;
     background-size: cover;
     border-bottom: 5px solid white;
 }
@@ -291,7 +292,7 @@ header nav ul li a:hover {
     text-align: center;
     width: 100%;
     grid-column: 4 / span 1;
-    grid-row: 2 / span 1;
+    grid-row: 3 / span 1;
     position: relative;
 }
 
@@ -305,7 +306,7 @@ header nav ul li a:hover {
     text-align: center;
     width: 100%;
     grid-column: 5 / span 1;
-    grid-row: 2 / span 1;
+    grid-row: 3 / span 1;
     position: relative;
 }
 
@@ -331,7 +332,7 @@ header nav ul li a:hover {
     text-align: center;
     width: 100%;
     grid-column: 6 / span 1;
-    grid-row: 2 / span 1;
+    grid-row: 3 / span 1;
 }
 
 .contact-linkedin {
@@ -340,7 +341,7 @@ header nav ul li a:hover {
     text-align: center;
     width: 100%;
     grid-column: 7 / span 1;
-    grid-row: 2 / span 1;
+    grid-row: 3 / span 1;
 }
 /* Contact Me End */
 
@@ -364,7 +365,7 @@ header nav ul li a:hover {
     }
     .projects-container {
         grid-template-columns: repeat( 7, 1fr);
-        grid-template-rows: repeat( 14, 1fr);
+        grid-template-rows: repeat( 13, 1fr);
     }
 
     .item-1 {
@@ -420,7 +421,7 @@ header nav ul li a:hover {
     }
 
     .about-text p {
-        font-size: 15px;
+        font-size: 20px;
         grid-row: 2 / span 2;
     }
 }
