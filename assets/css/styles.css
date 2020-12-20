@@ -112,14 +112,14 @@ header nav ul li a:hover {
     align-items: center;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.5);
-    padding: 10px;
+    padding: 50px 0 50px 0;
 }
 
 .projects-container {
     width: 100%;
     display: grid;
     grid-template-columns: repeat( 10, 1fr);
-    grid-template-rows: repeat( 5, 1fr);
+    grid-template-rows: auto;
     grid-gap: 20px;
     grid-auto-flow: dense;
 }
@@ -224,7 +224,7 @@ header nav ul li a:hover {
     width: 100%;
     align-items: center;
     justify-content: center;
-    padding: 10px;
+    padding: 50px 0 50px 0;
     background-color: rgba(0, 0, 0, 0.6)
 }
 
@@ -232,7 +232,7 @@ header nav ul li a:hover {
     width: 100%;
     display: grid;
     grid-template-columns: repeat( 5, 1fr);
-    grid-template-rows: repeat( 2, 1fr);
+    grid-template-rows: auto;
     grid-gap: 10px;
     grid-auto-flow: dense;
 }
@@ -263,7 +263,7 @@ header nav ul li a:hover {
     width: 100%;
     align-items: center;
     justify-content: center;
-    padding: 10px 0 20px 0;
+    padding: 50px 0 50px 0;
     background-color: rgba(0, 0, 0, 0.5)
 }
 
@@ -271,7 +271,7 @@ header nav ul li a:hover {
     width: 100%;
     display: grid;
     grid-template-columns: repeat( 10, 1fr);
-    grid-template-rows: repeat( 3, 1fr);
+    grid-template-rows: auto;
     grid-gap: 10px;
     grid-auto-flow: dense;
 }
