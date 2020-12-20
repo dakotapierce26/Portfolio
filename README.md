@@ -1,5 +1,8 @@
 # Portfolio
 url link:https://dakotapierce26.github.io/Portfolio/
+![Alt Text](https://github.com/dakotapierce26/Portfolio/blob/master/assets/images/webpage-screenshot.jpg)
+###
+My portfolio page, although empty of completed works or ongoing projects, I hope to fill it to the brim!
 
 
 
