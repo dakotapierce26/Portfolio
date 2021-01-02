@@ -302,21 +302,7 @@ header nav ul li a:hover {
     height: 100%;
 }
 
-.contact-email {
-    background-size: cover;
-    display: flex;
-    text-align: center;
-    width: 100%;
-    grid-column: 5 / span 1;
-    grid-row: 3 / span 1;
-    position: relative;
-}
-
-.contact-email:hover .overlay {
-    height: 100%;
-}
-
-.overlay-email {
+.overlay-phone {
     white-space: nowrap; 
     color: white;
     font-size: 12px;
@@ -326,6 +312,16 @@ header nav ul li a:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
+}
+
+.contact-email {
+    background-size: cover;
+    display: flex;
+    text-align: center;
+    width: 100%;
+    grid-column: 5 / span 1;
+    grid-row: 3 / span 1;
+    position: relative;
 }
 
 .contact-github {
@@ -454,5 +450,10 @@ header nav ul li a:hover {
         font-size: 20px;
         grid-row: 2 / span 2;
     }
+
+    .contact-phone {
+        height: 0%;
+    }
+    
 }
 /* End Media Queries */
